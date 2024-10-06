@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #FFB763;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section{
+    background-color: white;
+    width: 690px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    width: 690px;
+}
+
+.photo-profil{
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+    flex-direction: row;
+}
+
+.a1-nom{
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px;
+    margin-left: 20px;
+    flex-direction: row;
+ }
+
+ .burger{
+    position: relative;
+    display: flex;
+    font-weight: 999;
+    font-size: 40px;
+    gap: 0 5px;
+    margin-left: 400px;
+}
+
+.bloc-3{
+    position: relative;
+    display: flex;
+    background-color: #1FA1FF;
+    height: 50px;
+    width: 100%;
+    bottom: 5px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.share{
+    display: flex;
+    font-size: 15px;
+    color: white;
+    margin: 14px;
+}
+
+.flc{
+    position: relative;
+    display: flex;
+    color: white;
+    height: 15px;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.bloc-4{
+    display: flex;
+    flex-direction: row;
+    height:3%;
+    margin: 12px;   
+}
+
+#gauche{
+    display: flex;
+    flex-direction: row ;
+    gap: 0 8px;
+}
+
+.com{
+height: 120%;
+
+}
+
+.favori{
+    margin-left:550px;
+}
+
+#fin{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 10px 0 ;
+}
